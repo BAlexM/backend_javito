@@ -1,0 +1,6 @@
+
+1. commit - feladatleírás
+2. commit (külön branch) - struktúra
+3. commit - struktúra, adatbázis meghívás, app.js(hiányos)
+4. commit - struktúra, adatbázis meghívás, app.js, models/Wish.js, .env,
+	

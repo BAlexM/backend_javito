@@ -22,4 +22,6 @@ app.get('/', async (req, res) => {
 });
 
 
-
+sequelize.sync().then(() => {
+  app.listen(PORT, () => console.log(`A szerver fut`));
+});
