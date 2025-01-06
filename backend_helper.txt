@@ -3,4 +3,15 @@
 2. commit (külön branch) - struktúra
 3. commit - struktúra, adatbázis meghívás, app.js(hiányos)
 4. commit - struktúra, adatbázis meghívás, app.js, models/Wish.js, .env,
-	
+5. commit - struktúra, adatbázis meghívás, app.js, models/Wish.js, .env, API végpontok (wishRoutes.js, wishController.js), seeding (seedWishes.js)
+	-javítva a .env-ben: felhaszn.név, jelszó,
+		-tuti elfelejtem ha nem írom le új felhasználó a db-hez: 
+			-felhasználói név: "wish_user"
+			-host: "localhost" 
+			-password: "password"
+		-api végpontok:
+			-getAllWishes,
+  			-getWishById,
+  			-createWish,
+  			-updateWish,
+  			-deleteWish,
