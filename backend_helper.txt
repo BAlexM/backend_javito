@@ -15,3 +15,25 @@
   			-createWish,
   			-updateWish,
   			-deleteWish,
+
+6. commit - struktúra, adatbázis meghívás, app.js, models/Wish.js, .env, API végpontok (wishRoutes.js, wishController.js), seeding (seedWishes.js), index.ejs, style, test(nem működik {kicommentelve})
+	- a következő hibát írja így egyáltalán nem működik a kód:
+
+		echo "Error: no test specified" && exit 1
+
+	utána néztem interneten találtam egy csomó videót, hogy mi a hiba és hogy kell megoldani de nem működött egyik sem vagy voltak olyanok amiket meg se tudatam csinálni 
+	-illetve ezt a hibakódot is kaptam utána:
+
+		Error: Please install mysql2 package manually
+    at ConnectionManager._loadDialectModule (C:\Users\barto\OneDrive\Asztali gép\nagyprojekt\new-year-wishes\node_modules\sequelize\lib\dialects\abstract\connection-manager.js:55:15)
+    at new ConnectionManager (C:\Users\barto\OneDrive\Asztali gép\nagyprojekt\new-year-wishes\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:30:21)
+    at new MysqlDialect (C:\Users\barto\OneDrive\Asztali gép\nagyprojekt\new-year-wishes\node_modules\sequelize\lib\dialects\mysql\index.js:13:30)
+    at new Sequelize (C:\Users\barto\OneDrive\Asztali gép\nagyprojekt\new-year-wishes\node_modules\sequelize\lib\sequelize.js:194:20)
+    at Object.<anonymous> (C:\Users\barto\OneDrive\Asztali gép\nagyprojekt\new-year-wishes\models\Wish.js:15:19)
+    at Module._compile (node:internal/modules/cjs/loader:1275:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1329:10)
+    at Module.load (node:internal/modules/cjs/loader:1133:32)
+    at Module._load (node:internal/modules/cjs/loader:972:12)
+    at Module.require (node:internal/modules/cjs/loader:1157:19)
+
+
